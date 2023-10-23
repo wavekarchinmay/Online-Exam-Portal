@@ -1,0 +1,13 @@
+.title{
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;
+	width:100%;
+	font-size:35px;
+	color:#7FFFD4; /*change font conlor of heading of all pages*/
+	background-color:#001f3f;
+}
+body{
+	margin:auto;
+	background-color: #FFEBCD;
+}

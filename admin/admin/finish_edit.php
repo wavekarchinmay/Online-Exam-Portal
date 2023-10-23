@@ -1,0 +1,23 @@
+<?php
+session_start();
+if(isset($_SESSION["admin"]))
+{
+}
+else{
+	header("Location:index.php");
+}
+//connect to db
+include("connection.php");
+mysqli_select_db($con,"online_exam_papers");
+if(isset($_REQUEST["finish"]))
+{
+	if(isset($_SESSION["paper_name"]))
+	{
+		unset($_SESSION["paper_name"]);
+		header("Location:adminporter.php");
+	}
+}
+else{
+		header("Location:index.php");
+}
+?>

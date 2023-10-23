@@ -14,19 +14,19 @@ else if($_REQUEST["pwd"]=="")
 {
 	//header("Location:index.php");
 }
-$res="Please Enter Valid Username";
-mysqli_select_db($con,"registration");
-$sql=mysqli_query($con,"select * from user_reg where uname='$username'");
+$res="Invalid Username";
+mysqli_select_db($con,"admin");
+$sql=mysqli_query($con,"select * from login where username='$username'");
 while($row=mysqli_fetch_assoc($sql))
 {
 	
-	$db_un=$row["uname"];
-	$db_pwd=$row["pwd"];
+	$db_un=$row["username"];
+	$db_pwd=$row["password"];
 	if($username==$db_un && $password==$db_pwd)
 	{
 		session_start();
-		$_SESSION["user"]=$username;
-		header("Location:selectpaper.php");
+		$_SESSION["admin"]=$username;
+		header("Location:adminporter.php");
 	}
 	else{
 		$res="Invalid Username or password";
@@ -37,14 +37,14 @@ while($row=mysqli_fetch_assoc($sql))
 ?>
 <html>
 <head><meta name="viewport" content="width=device-width,initial-scale=1.0" >
-	<link rel="stylesheet" type="text/css" href="common.css">
-	<link rel="stylesheet" type="text/css" href="valid.css">
+	<link rel="stylesheet" type="text/css" href="../common.css">
+	<link rel="stylesheet" type="text/css" href="../valid.css">
 </head>
 	<body>
-	<div class="title"><i>Online Exam Portal</i></div>
+	<div class="title"><i>Online Examination Portal</i></div>
 		<div class="div1">
 			<p class="p1">Error</p>
-		<p class="res"><?php echo $res; ?></p>
+		<p class="res" style="text-align:center;margin-left:0;"><?php echo $res; ?></p>
 		<button class="btn" onclick="login()">Login</button>
 		</div>
 	<script lang="js">

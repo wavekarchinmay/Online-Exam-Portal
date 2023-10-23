@@ -1,4 +1,4 @@
-.div1 {
+.div1{
 	margin: 120px auto;
 	border: 1px solid white;
 	width: 350px;
@@ -12,19 +12,23 @@
 	padding: 15px;
 	/* background-color: #001f3f; */
 	font-size: 30px;
-	color: #ff6565;
+	color: #aaa;
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 0px 0 0;
 	text-shadow: 3px 3px 3px #ddd;
 	text-align: center;
+	margin: 20px 0;
 }
-
-.res {
-	margin-top: 20px;
-	margin-left: 20px;
-	font-size: 22px;
-	color: red;
-	padding: 6px;
+.inp {
+	/* margin-left: 50px; */
+	margin-top: 7px;
+	width: 83%;
+	height: 40px;
+	margin: 10px 30px;
+	padding: 12px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 1px 1px 5px 0px lightgray;
 }
 
 .btn {
@@ -34,7 +38,7 @@
 	/* height: 30px; */
 	border: none;
 	background: linear-gradient(156deg,#6b56cb,#af52c3);
-	margin: 6px 30px;
+	margin: 20px 30px;
 	border-radius: 5px;
 	padding: 15px;
 	font-size: 15px;

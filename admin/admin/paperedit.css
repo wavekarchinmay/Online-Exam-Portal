@@ -1,0 +1,47 @@
+.div1{
+	padding:20px;
+	margin:20px auto;
+	/*border:1px dashed black;*/
+	max-width:980px;
+	font-size:20px;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 1px 1px 10px 1px lightgray;
+}
+.btn{
+	margin-right:20px;
+	margin-top:-10px;
+	float:right;
+	border:none;
+	width:120px;
+	height:40px;
+	background: linear-gradient(156deg,#6b56cb,#af52c3);
+	color:white;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor:pointer;
+}
+.btn2{
+	margin-right:20px;
+	margin-top:-30px;
+	float:right;
+	border:none;
+	width:120px;
+	height:40px;
+	background: linear-gradient(156deg,#6b56cb,#af52c3);
+	color:white;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor:pointer;
+}
+
+.que{
+	width:800px;
+	height:40px;
+	max-width:450px;
+}
+.opt{
+	width:300px;
+	height:40px;
+	margin-top:20px;
+}

@@ -1,0 +1,34 @@
+.div1{
+	padding:20px;
+	margin:20px auto;
+	max-width:980px;
+	font-size:20px;
+}
+.btn{
+	margin-right:20px;
+	margin-top:-10px;
+	float:right;
+	border:none;
+	width:120px;
+	height:40px;
+	background-color:LightBlue;
+	color:white;
+}
+table{
+	border:1px solid black;
+	background:white;
+}
+th,td{
+	text-align:center;
+	border:1px solid black;
+}
+tr{
+	height:50px;
+	font-size:18px;
+}
+th{
+	color:red;
+}
+td{
+	color:blue;
+}
