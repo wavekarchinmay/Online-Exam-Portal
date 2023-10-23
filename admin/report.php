@@ -28,6 +28,7 @@ mysqli_select_db($con,"online_exam_papers");
 		<th>Wrong Answers</th>
 		<th>Right Answer</th>
 		<th>Exam Date and Time</th>
+		<th>Action</th>
 	</tr>
 	<?php
 	$i=1;
@@ -40,8 +41,8 @@ mysqli_select_db($con,"online_exam_papers");
 			"<td>".$row["tot_attempt"]."</td>".
 			"<td>".$row["wrong_ans"]."</td>".
 			"<td>".$row["right_ans"]."</td>".
-			"<td>".$row["date_time"]."</td>"
-			
+			"<td>".$row["date_time"]."</td>".
+			"<td><a href=resetpaper.php?name=".$row["username"].'&paper='.$row["paper_name"].">Reset</a></td>"
 			."</tr>";
 			$i++;
 		}

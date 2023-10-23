@@ -19,7 +19,7 @@ mysqli_select_db($con,"online_users");
 <body>
 	<div class="title"><i>Online Exam Portal</i><a class="btn-logout"  href="logout.php">logout</a></div>
 	<div class="div1">
-		<b>Add Questions</b> <button class="btn"  onclick="addpaper()">Add Questions</button>
+		<b>Manage Papers</b> <button class="btn"  onclick="addpaper()">Manage Papers</button>
 	</div>
 	<div class="div1">
 		<b>Show paper</b> <button class="btn" onclick="showpaper()">Show Papers</button>

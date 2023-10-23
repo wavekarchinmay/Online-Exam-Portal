@@ -1,45 +1,13 @@
-.title i {
-	font-style: inherit;
+.title{
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;
+	width:100%;
+	font-size:35px;
+	color:#7FFFD4; /*change font conlor of heading of all pages*/
+	background-color:#001f3f;
 }
-.title {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
-	/*width: 100%;*/
-	font-size: 22px;
-	color: #fff;
-	background-color: #ffffff54;
-	text-align: left;
-	padding: 28px 28px;
-}
-body {
-	margin: auto;
-	background: linear-gradient(-135deg,#c850c0,#4158d0);
-	height: 100%;
-	font-family: Arial, Helvetica, sans-serif !important;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-a{
-	font-family: Arial, Helvetica, sans-serif;
-}
-.btn-logout {
-	background: #000;
-	padding: 10px;
-	font-size: 20px;
-	float: right;
-	margin-top: -7px;
-	margin-right: 30px;
-	width: 81px;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	border-radius: 7px;
-}
-
-@media only screen and (max-width:480px){
-	.btn-logout {
-		margin-right: 0px;
-	}
+body{
+	margin:auto;
+	background-color: #FFEBCD;
 }
