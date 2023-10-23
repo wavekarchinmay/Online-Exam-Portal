@@ -1,8 +1,0 @@
-Unable to send mail 12:07:28 22:10:23 PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in C:\wamp64\www\exam\phpmailer\src\PHPMailer.php:2216
-Stack trace:
-#0 C:\wamp64\www\exam\phpmailer\src\PHPMailer.php(2023): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
-#1 C:\wamp64\www\exam\phpmailer\src\PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 22 O...', '<h1>Welcome, te...')
-#2 C:\wamp64\www\exam\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
-#3 C:\wamp64\www\exam\register.php(73): PHPMailer\PHPMailer\PHPMailer->send()
-#4 C:\wamp64\www\exam\register.php(34): sendMail('ptejas1945@gmai...', 'tejas')
-#5 {main}
